@@ -4,14 +4,14 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 2
-      h1 <em>Subordinating conjunctions of time</em> (Conjunciones subordinadas de tiempo)
+        span 5
+      h1 <em>Pronunciation of unstressed vowels and vowel reduction</em> (Pronunciación de vocales no acentuadas y reducción de vocales)
 
 </template>
 
 <script>
 export default {
-  name: 'Tema2',
+  name: 'Tema5',
   data: () => ({
     // variables de vue
   }),
