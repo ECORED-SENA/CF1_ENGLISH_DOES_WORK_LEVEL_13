@@ -120,7 +120,7 @@
         .row.mb-5.justify-content-center
           .col-lg-7.d-flex.align-items-center
             div
-              p.text-white Si es de su interés ampliar la información sobre ejemplos de dynamic or stative verbs , puede descargar el documento PDF.
+              p.text-white Si es de su interés ampliar la información sobre ejemplos de <em>dynamic or stative verbs</em>, puede descargar el documento PDF.
               a.anexo.mb-4(:href="obtenerLink('downloads/anexo3.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
@@ -363,7 +363,7 @@
                     p.mb-0.text-center (muy duro.)
                   .col-lg-4
                     Audio.color-acento-botones.mt-2(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/componentes/audios/tema1/28.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -384,7 +384,7 @@
                     p.mb-0.text-center (la radio.)
                   .col-lg-4
                     Audio.color-acento-botones.mt-2(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/componentes/audios/tema1/29.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -401,11 +401,11 @@
               td.bgr_4
                 .row
                   .col-lg-8
-                    p.text-center <em>a big house.</em>
-                    p.mb-0.text-center (una casa grande.)
+                    p.text-center <em>a new house.</em>
+                    p.mb-0.text-center (una nueva casa.)
                   .col-lg-4
                     Audio.color-acento-botones.mt-2(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/componentes/audios/tema1/30.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
@@ -426,7 +426,7 @@
                     p.mb-0.text-center (al extranjero.)
                   .col-lg-4
                     Audio.color-acento-botones.mt-2(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/componentes/audios/tema1/31.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")    
@@ -710,46 +710,47 @@ export default {
       dialogo: [
         {
           personaje: 'Pablo',
-          textoIng: '*** you talk to Lina?',
+          textoIng: '*** <em>you talk to Lina?</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/tema1/22.mp3'),
-          palabra: 'Did',
+          palabra: '<em>Did</em>',
         },
         {
           personaje: 'Maria',
-          textoIng: 'Yes, I did. She *** she was sorry.',
+          textoIng: '<em>Yes, I did. She</em> *** <em>she was sorry.</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/tema1/23.mp3'),
-          palabra: 'said',
+          palabra: '<em>said</em>',
         },
         {
           personaje: 'Pablo',
-          textoIng: 'I saw how she *** our daughter in the match!',
+          textoIng:
+            '<em>I saw how she</em> *** <em>our daughter in the match!</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/tema1/24.mp3'),
-          palabra: 'pushed',
+          palabra: '<em>pushed</em>',
         },
         {
           personaje: 'Maria',
           textoIng:
-            'I know but she said she *** sorry, she was really sad to see the scratch in the knee.',
+            '<em>I know but she said she</em> *** <em>sorry, she was really sad to see the scratch in the knee.</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/tema1/25.mp3'),
-          palabra: 'was',
+          palabra: '<em>was</em>',
         },
         {
           personaje: 'Pablo',
-          textoIng: 'I hope It *** not happen again!',
+          textoIng: '<em>I hope It</em> *** <em>not happen again!</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/tema1/26.mp3'),
-          palabra: 'does',
+          palabra: '<em>does</em>',
         },
         {
           personaje: 'Maria',
-          textoIng: 'Ahh…neither, *** I.',
+          textoIng: '<em>Ahh…neither,</em> *** <em>I.</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/tema1/27.mp3'),
-          palabra: 'do',
+          palabra: '<em>do</em>',
         },
       ],
     },

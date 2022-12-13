@@ -155,45 +155,46 @@ export default {
       dialogo: [
         {
           personaje: 'Eliana',
-          textoIng: 'Peter, you told me about some reading *** you are using.',
+          textoIng:
+            '<em>Peter, you told me about some reading</em> *** <em>you are using.</em>',
           textoEsp:
             'Peter, me dijiste acerca de algunas técnicas de lectura que estás usando.',
           audio: require('@/assets/componentes/audios/tema4/8.mp3'),
-          palabra: 'techniques',
+          palabra: '<em>techniques</em>',
         },
         {
           personaje: 'Peter',
           textoIng:
-            'Yes, I learned them in my English course, they are *** and scanning.',
+            '<em>Yes, I learned them in my English course, they are</em> *** <em>and scanning.</em>',
           textoEsp:
             'Sí, las aprendí en mi curso de inglés, ellas son skimming y scanning.',
           audio: require('@/assets/componentes/audios/tema4/9.mp3'),
-          palabra: 'skimming',
+          palabra: '<em>skimming</em>',
         },
         {
           personaje: 'Eliana',
-          textoIng: 'What is skimming ***?',
+          textoIng: '<em>What is skimming</em> ***?',
           textoEsp: '¿De qué se trata el <em>skimming</em>?',
           audio: require('@/assets/componentes/audios/tema4/10.mp3'),
-          palabra: 'about',
+          palabra: '<em>about</em>',
         },
         {
           personaje: 'Peter',
           textoIng:
-            'Skimming is reading *** in order to get a general overview of the material.',
+            '<em>Skimming is reading</em> *** <em>in order to get a general overview of the material.</em>',
           textoEsp:
             '<em>Skimming</em> es leer rápidamente para obtener una visión general del material.',
           audio: require('@/assets/componentes/audios/tema4/11.mp3'),
-          palabra: 'rapidly',
+          palabra: '<em>rapidly</em>',
         },
         {
           personaje: 'Eliana',
           textoIng:
-            'Oh, I may try that skimming technique in my *** assignment.',
+            '<em>Oh, I may try that skimming technique in my</em> *** <em>assignment.</em>',
           textoEsp:
             'Oh, puedo intentar esta técnica de <em>skimming</em> en mi próxima tarea.',
           audio: require('@/assets/componentes/audios/tema4/12.mp3'),
-          palabra: 'next',
+          palabra: '<em>next</em>',
         },
       ],
     },

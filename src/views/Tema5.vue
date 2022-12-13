@@ -204,52 +204,52 @@ export default {
         {
           personaje: 'Jackson',
           textoIng:
-            'How did you learn to pronounce the short and long *** well?',
+            '<em>How did you learn to pronounce the short and long</em> *** <em>well?</em>',
           textoEsp:
             '¿Cómo aprendiste a pronunciar las vocales largas y cortas bien?',
           audio: require('@/assets/componentes/audios/tema5/8.mp3'),
-          palabra: 'vowels',
+          palabra: '<em>vowels</em>',
         },
         {
           personaje: 'Emma',
           textoIng:
-            'Well, I had to practice a lot, I had to make a difference between the name and how they ***.',
+            '<em>Well, I had to practice a lot, I had to make a difference between the name and how they</em> ***.',
           textoEsp:
             'Bien, pues yo tuve que practicar mucho, tuve que aprender a diferenciar entre el nombre y cómo suenan.',
           audio: require('@/assets/componentes/audios/tema5/9.mp3'),
-          palabra: 'sound',
+          palabra: '<em>sound</em>',
         },
         {
           personaje: 'Jackson',
           textoIng:
-            'Oh, can you  me an example? Why the a is named a and it sounds A',
+            '<em>Oh, can you</em> *** <em>me an example? Why the a is named a and it sounds A</em>',
           textoEsp:
             '¡Oh! ¿Me das un ejemplo? ¿Por qué se llama ei pero suena a?',
           audio: require('@/assets/componentes/audios/tema5/10.mp3'),
-          palabra: 'give',
+          palabra: '<em>give</em>',
         },
         {
           personaje: 'Emma',
           textoIng:
-            'Because there is something called *** silent e, that’s when there are 2 syllables in a word and it ends in e. For example: name, fake, rake, same.',
+            '<em>Because there is something called</em> *** <em>silent e, that’s when there are 2 syllables in a word and it ends in e. For example: name, fake, rake, same.</em>',
           textoEsp:
             'Porque hay algo llamado e silenciosa y esto es cuando hay dos sílabas en un palabra que termina en e. Por ejemplo: name, fake, rake, same.',
           audio: require('@/assets/componentes/audios/tema5/11.mp3'),
-          palabra: 'the',
+          palabra: '<em>the</em>',
         },
         {
           personaje: 'Jackson',
-          textoIng: 'I ***. ',
+          textoIng: '<em>I</em> ***. ',
           textoEsp: 'Ya veo.',
           audio: require('@/assets/componentes/audios/tema5/12.mp3'),
-          palabra: 'see',
+          palabra: '<em>see</em>',
         },
         {
           personaje: 'Emma',
-          textoIng: 'Yes.',
+          textoIng: '<em>Yes</em>.',
           textoEsp: 'Si.',
           audio: require('@/assets/componentes/audios/tema5/13.mp3'),
-          palabra: 'rapidly',
+          palabra: '<em>rapidly</em>',
         },
       ],
     },

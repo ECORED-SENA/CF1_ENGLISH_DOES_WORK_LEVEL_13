@@ -488,42 +488,42 @@ export default {
       dialogo: [
         {
           personaje: 'Linn',
-          textoIng: 'Jack! Welcome back! *** was the trip?',
+          textoIng: '<em>Jack! Welcome back!</em> *** <em>was the trip?</em>',
           textoEsp: '¡Jack! ¡Bienvenido! ¿Cómo estuvo el viaje?',
           audio: require('@/assets/componentes/audios/tema3/19.mp3'),
-          palabra: 'How',
+          palabra: '<em>How</em>',
         },
         {
           personaje: 'Jack',
           textoIng:
-            ' I am angry and tired. I was mad at the man *** sat next to me on the plane! He talked during the whole trip!',
+            ' <em>I am angry and tired. I was mad at the man</em> *** <em>sat next to me on the plane! He talked during the whole trip!</em>',
           textoEsp:
             'Estoy enojado y cansado. ¡Estaba enojado con el hombre que se sentó a mi lado en el avión! ¡Habló durante todo el viaje!',
           audio: require('@/assets/componentes/audios/tema3/20.mp3'),
-          palabra: 'who',
+          palabra: '<em>who</em>',
         },
         {
           personaje: 'Linn',
-          textoIng: 'Oh, really? *** did he talk about?',
+          textoIng: '<em>Oh, really?</em> *** <em>did he talk about?</em>',
           textoEsp: '¿En serio?¿De qué hablaba?',
           audio: require('@/assets/componentes/audios/tema3/21.mp3'),
-          palabra: 'What',
+          palabra: '<em>What</em>',
         },
         {
           personaje: 'Jack',
           textoIng:
-            'It was unbelievable! He was talking about my friend Eliana the whole time. He was in love with my friend *** he met last year, but they broke up a few months ago.',
+            '<em>It was unbelievable! He was talking about my friend Eliana the whole time. He was in love with my friend</em> *** <em>he met last year, but they broke up a few months ago.</em>',
           textoEsp:
             '¡Fue increíble! Estuvo hablando de mi amiga Eliana todo el tiempo. Él estaba enamorado de mi amiga, a quien conoció el año pasado, pero se separaron hace unos meses.',
           audio: require('@/assets/componentes/audios/tema3/22.mp3'),
-          palabra: 'whom',
+          palabra: '<em>whom</em>',
         },
         {
           personaje: 'Linn',
-          textoIng: 'Oh! *** a small world.',
+          textoIng: '<em>Oh!</em> *** <em>a small world.</em>',
           textoEsp: '¡Qué pequeño es el mundo!',
           audio: require('@/assets/componentes/audios/tema3/23.mp3'),
-          palabra: 'What',
+          palabra: '<em>What</em>',
         },
       ],
     },
