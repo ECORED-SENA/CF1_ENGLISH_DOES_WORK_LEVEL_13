@@ -1,0 +1,33 @@
+<svg id="Grupo_984114" data-name="Grupo 984114" xmlns="http://www.w3.org/2000/svg" width="400" height="144" viewBox="0 0 400 144">
+  <rect id="Rectángulo_339142" data-name="Rectángulo 339142" width="398" height="144" rx="16" transform="translate(2)" fill="#ffbfc1"/>
+  <g id="Grupo_984113" data-name="Grupo 984113" transform="translate(0 12)">
+    <text id="John_bought_his_son_a_present" data-name="John bought his son a present" transform="translate(0 44)" fill="#ff5f65" font-size="24" font-family="Roboto-BlackItalic, Roboto" font-weight="800" font-style="italic"><tspan x="-160.465" y="25">John bought</tspan><tspan y="25" fill="#12263f"> </tspan><tspan y="25" fill="#6b8dfc">his son</tspan><tspan y="25" fill="#12263f"> </tspan><tspan y="25" fill="#3c3fa7">a present</tspan></text>
+    <text id="Subject" transform="translate(38)" fill="#fc5f65" font-size="18" font-family="Roboto-BlackItalic, Roboto" font-weight="800" font-style="italic"><tspan x="-30.252" y="19">Subject</tspan></text>
+    <text id="Indirect_Object" data-name="Indirect Object" transform="translate(149 95)" fill="#6b8dfc" font-size="18" font-family="Roboto-BlackItalic, Roboto" font-weight="800" font-style="italic"><tspan x="-58.878" y="19">Indirect Object</tspan></text>
+    <text id="Direct_Object" data-name="Direct Object" transform="translate(264)" fill="#3c3fa7" font-size="18" font-family="Roboto-BlackItalic, Roboto" font-weight="800" font-style="italic"><tspan x="-51.97" y="19">Direct Object</tspan></text>
+    <g id="Rectángulo_339143" data-name="Rectángulo 339143" transform="translate(27 44)" fill="none" stroke="#fc5f65" stroke-width="1">
+      <rect width="149" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="148" height="31" fill="none"/>
+    </g>
+    <g id="Rectángulo_339144" data-name="Rectángulo 339144" transform="translate(176 44)" fill="none" stroke="#6b8dfc" stroke-width="1">
+      <rect width="82" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="81" height="31" fill="none"/>
+    </g>
+    <g id="Rectángulo_339145" data-name="Rectángulo 339145" transform="translate(258 44)" fill="none" stroke="#3c3fa7" stroke-width="1">
+      <rect width="117" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="116" height="31" fill="none"/>
+    </g>
+    <g id="Grupo_984110" data-name="Grupo 984110" transform="translate(85 25)">
+      <path id="Polígono_169" data-name="Polígono 169" d="M5.5,0,11,9H0Z" fill="#fc5f65"/>
+      <rect id="Rectángulo_339146" data-name="Rectángulo 339146" width="5" height="13" transform="translate(3 7)" fill="#fc5f65"/>
+    </g>
+    <g id="Grupo_984112" data-name="Grupo 984112" transform="translate(314 25)">
+      <path id="Polígono_169-2" data-name="Polígono 169" d="M5.5,0,11,9H0Z" fill="#3c3fa7"/>
+      <rect id="Rectángulo_339146-2" data-name="Rectángulo 339146" width="5" height="13" transform="translate(3 7)" fill="#3c3fa7"/>
+    </g>
+    <g id="Grupo_984111" data-name="Grupo 984111" transform="translate(212 76)">
+      <path id="Polígono_169-3" data-name="Polígono 169" d="M5.5,0,11,9H0Z" transform="translate(11 20) rotate(180)" fill="#6b8dfc"/>
+      <rect id="Rectángulo_339146-3" data-name="Rectángulo 339146" width="5" height="13" transform="translate(3)" fill="#6b8dfc"/>
+    </g>
+  </g>
+</svg>
