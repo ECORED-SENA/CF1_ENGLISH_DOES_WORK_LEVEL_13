@@ -90,6 +90,8 @@
   color: $color-acento-botones
   &_1
     color: #777777
+  &_2
+    color: $color-secundario
 //FONDOS//
 .bgr
   background-color: white
@@ -125,6 +127,25 @@
     background-size: cover
   &_10
     background-color: #FFF0F1
+  &_11
+    background-color: #C4D1FF
+    margin: 0 -3rem   
+    left: 0
+  &_12
+    background-color: #FFF0F1
+    margin: 0 -3rem   
+    left: 0
+  &_13
+    background-image: url("../assets/curso/tema3/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+  &_14
+    background-color: white
+    border-bottom-left-radius: 20px
+    border-bottom-right-radius: 20px
+  &_15
+    background-color: white
+    border: 3px solid #3C3FA7
 
 //FONDOS COMPLETOS DE CONTENIDO//
 .bg_grad-01
@@ -431,6 +452,7 @@
       height: 79%
     @media (max-width: 426px)
       height: 87%
+
 //POSISION PANTALLA//
 .pst
   position: absolute
@@ -458,8 +480,37 @@
     top: 10%
     left: 0
     width: 83px
+  &_6
+    position: absolute
+    top: 93%
+    right: -2%
+    width: 70px
+  &_7
+    position: absolute
+    top: 29%
+    left: 0
+    width: 83px
 
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #3C3FA7 !important
+      color: #FED947
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #ACADE1
 
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #D5D6F0
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #D5D6F0
 //MARGEN//
 .mgt
   margin-top: 100px
