@@ -128,7 +128,7 @@
                   
     .row.mb-5
       .col-lg-4
-        TraduccionT.color-acento-botones(:dialogo="dialogo3")(data-aos="flip-up")
+        TraduccionT.color-acento-botones.pst_8(:dialogo="dialogo3")(data-aos="flip-up")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema3/4.svg", alt="alt")
       .col-lg-8
@@ -193,7 +193,7 @@
 
     .row.mb-5
       .col-lg-4
-        TraduccionAudio.color-acento-botones(:dialogo="dialogo11")(data-aos="flip-up")
+        TraduccionAudio.color-acento-botones.pst_8(:dialogo="dialogo11")(data-aos="flip-up")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema3/15.png", alt="alt")
       .col-lg-8
@@ -211,7 +211,7 @@
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio")
                 .col-lg-10
-                  p.colr_2 <em>Who, whom, what, which, whoever, whomever     whatever, when, where, how, why</em>
+                  p.colr_2 <em>Who, whom, what, which, whoever, whomever, whatever, when, where, how, why</em>
               figure.d-flex.justify-content-center
                 img.w-auto(src="@/assets/curso/tema3/20.svg", alt="alt")
           .row(titulo="<em>Nominal clause as direct object in the sentence</em>").bgr.tarjeta.p-4
@@ -381,7 +381,7 @@ export default {
       {
         textoIng:
           '<em>The relative pronoun is the subject/object of the relative clause, so we do not repeat the subject/object. Thus, we use relative pronouns to introduce relative clauses. Relative clauses tell us more about people and things. Let’s see some examples:</em>',
-        textoEsp: 'FALTA TRADUCCION',
+        textoEsp: '',
       },
     ],
     dialogo4: [
@@ -539,7 +539,7 @@ export default {
       {
         textoIng:
           '<em><b>Nominal clauses:</b> a nominal clause names a person, place, thing, or idea.  A nominal clause may function in a sentence as any of the following : subject, preposition, subjective complement, direct object, appositive, indirect object, object of, retained object.<br><br>Some examples for nominal clauses:</em>',
-        textoEsp: 'falta traduccion',
+        textoEsp: '',
         audio: require('@/assets/componentes/audios/tema3/24.mp3'),
       },
     ],

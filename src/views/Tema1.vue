@@ -295,7 +295,7 @@
             div.text-white
               p Si es de su interés, puede practicar las formas simples y continuas en el siguiente enlace.
               p Palabras a practicar:
-              p <em>verbs of emotion (love, hope), possession (have, contain), mental states (know, forget), perception (hear, taste), and others (seem, matter).</em>
+              p <em>Verbs of emotion (love, hope), possession (have, contain), mental states (know, forget), perception (hear, taste), and others (seem, matter).</em>
             .row
               .col-lg-4
                 a.anexo.mb-4.mb-lg-0(href="https://agendaweb.org/verbs/present-continuous-present-simple.html" target="_blank")
@@ -448,13 +448,13 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col-lg-8.mb-3.mb-sm-0
-                    p.mb-0.text-white Si es de su interes, puede consultar mas informacion acerca de los tiempos perfectos en el siguiente enlace del British Council.  
+                    p.mb-0.text-white Si es de su interés, puede consultar mas información acerca de los tiempos perfectos en el siguiente enlace del British Council.  
                   .col-lg-4.col-sm-auto
                     a.anexo.mb-4.mb-lg-0(href="https://www.britishcouncil.es/blog/tiempos-perfectos-ingles" target="_blank")
                       .anexo__icono
                         img(src="@/assets/template/icono-link.svg")
                       .anexo__texto
-                        p <b>Enlace <em>web</em>.</b> tiempos perfectos ingles
+                        p <b>Enlace <em>web</em>.</b> tiempos perfectos inglés.
     
     p.colr <em>Once studied the grammatical tenses, we invite you to practice with the following dialogue. </em>
       span.colr_1 / Una vez estudiados los tiempos gramaticales, lo invitamos a practicar con el siguiente diálogo.
@@ -523,7 +523,7 @@ export default {
     dialogo6: [
       {
         textoIng:
-          '<em>Verbs that use both direct and indirect objects are called <i>ditransitive.</i> They do not always need an indirect object, but they have the option. <br><br>Examples: <br><br><b>I throw you the ball, I make you listen to the song, I buy my son a toy.</b>.h-100</em>',
+          '<em>Verbs that use both direct and indirect objects are called <i>ditransitive.</i> They do not always need an indirect object, but they have the option. <br><br>Examples: <br><br><b>I throw you the ball, I make you listen to the song, I buy my son a toy.</b></em>',
         textoEsp:
           'Los verbos que usan complementos directos e indirectos se llaman ditransitivos. No siempre necesitan un objeto indirecto, pero tienen la opción.<br><br>Ejemplos:<br><br>Le tiro la pelota, le hago escuchar la canción, le compro un juguete a mi hijo.',
       },
@@ -547,7 +547,7 @@ export default {
     dialogo9: [
       {
         textoIng:
-          '<em>First, <i>present tense</i> tells you what a routine is, for example: <i>I go to work from Monday to Saturday.</i> That sentence means my routine is going to work, if there is an activity that I am doing today and it is not working, I must tell it in present continuous. <br><br><b>He/go/bus/everyday</b></em>',
+          '<em>First, <i>present tense</i> tells you what a routine is, for example: <i>I go to work from Monday to Saturday.</i> That sentence means my routine is going to work, if there is an activity that I am doing today and it is not working, I must tell it in present continuous. Let’s guess whether the present should be simple or progressive.<br><br><b>He/go/bus/everyday</b></em>',
         textoEsp:
           'Primero, el tiempo presente dice qué es una rutina, por ejemplo: Voy a trabajar de lunes a sábado. Esa oración significa que mi rutina es ir a trabajar, si hay una actividad que estoy haciendo hoy y no es trabajar, debo decirla en presente continuo. Adivina si el presente debe ser simple o progresivo (continuo).<br><br><em><b>He/go/bus/everyday</b></em>',
         audio: require('@/assets/componentes/audios/tema1/9.mp3'),

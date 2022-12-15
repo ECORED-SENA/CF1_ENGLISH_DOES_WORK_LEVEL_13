@@ -214,7 +214,7 @@ export default {
         {
           personaje: 'Sergio:',
           textoIng: '<em>I cannot imagine how hard it was!</em>',
-          textoEsp: 'No puedo imaginar lo difícil que fue.',
+          textoEsp: '¡No puedo imaginar lo difícil que fue!',
           audio: require('@/assets/componentes/audios/tema2/5.mp3'),
         },
         {

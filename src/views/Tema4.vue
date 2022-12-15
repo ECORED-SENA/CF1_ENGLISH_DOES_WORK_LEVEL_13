@@ -30,7 +30,7 @@
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema4/2.png", alt="alt")
         .col-lg-6.bgr
-          p.mt-3.text-bold.text-center <em>Let´s use a reading technique</em>
+          p.mt-3.text-bold.text-center <em>Let’s use a reading technique</em>
           SlyderA(tipo="b")
             div
               TraduccionChat.color-acento-botones(:dialogo="traduccionChat")(data-aos="flip-up")

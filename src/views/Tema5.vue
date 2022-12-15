@@ -13,7 +13,7 @@
           TraduccionAudio.color-acento-botones(:dialogo="dialogo")(data-aos="flip-up")
         .col-lg-3
           figure.d-flex.justify-content-center
-            img.w-auto(src="@/assets/curso/tema5/1.png", alt="alt")
+            img.w-auto(src="@/assets/curso/tema5/1.svg", alt="alt")
     
     .bg_grad-16
       .row.mb-5.justify-content-center
