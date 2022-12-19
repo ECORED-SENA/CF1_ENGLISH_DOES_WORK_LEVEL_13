@@ -437,7 +437,7 @@
       
       figure.mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/lK_dF2GEeYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
       .row.justify-content-center
         .col-lg-10
@@ -747,7 +747,7 @@ export default {
         },
         {
           personaje: 'Maria',
-          textoIng: '<em>Ahh…neither,</em> *** <em>I.</em>',
+          textoIng: '<em>Ahh… neither,</em> *** <em>I.</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/tema1/27.mp3'),
           palabra: '<em>do</em>',

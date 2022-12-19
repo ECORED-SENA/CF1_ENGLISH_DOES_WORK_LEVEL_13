@@ -488,8 +488,8 @@ export default {
       dialogo: [
         {
           personaje: 'Linn',
-          textoIng: '<em>Jane! Welcome back!</em> *** <em>was the trip?</em>',
-          textoEsp: '¡Jane! ¡Bienvenido! ¿Cómo estuvo el viaje?',
+          textoIng: '<em>Welcome back!</em> *** <em>was the trip?</em>',
+          textoEsp: '¡Bienvenido! ¿Cómo estuvo el viaje?',
           audio: require('@/assets/componentes/audios/tema3/19.mp3'),
           palabra: '<em>How</em>',
         },
@@ -498,7 +498,7 @@ export default {
           textoIng:
             ' <em>I am angry and tired. I was mad at the man</em> *** <em>sat next to me on the plane! He talked during the whole trip!</em>',
           textoEsp:
-            'Estoy enojado y cansado. ¡Estaba enojado con el hombre que se sentó a mi lado en el avión! ¡Habló durante todo el viaje!',
+            'Estoy enojada y cansada. ¡Estaba enojada con el hombre que se sentó a mi lado en el avión! ¡Habló durante todo el viaje!',
           audio: require('@/assets/componentes/audios/tema3/20.mp3'),
           palabra: '<em>who</em>',
         },
