@@ -20,12 +20,12 @@
           TraduccionT.color-acento-botones(:dialogo="dialogo2")(data-aos="flip-up")
         .col-lg-4(data-aos="fade-right")
           figure.d-flex.justify-content-center
-            img.w-auto(src="@/assets/curso/tema1/2.svg", alt="alt")
+            img.w-auto.d-none.d-lg-flex(src="@/assets/curso/tema1/2.svg", alt="alt")
       
       .row.mb-5
         .col-lg-3.mb-3.mb-lg-0.d-flex.align-items-center
           figure.d-flex.justify-content-center
-            img.w-auto(src="@/assets/curso/tema1/3.svg", alt="alt")
+            img.w-auto.d-none.d-lg-flex(src="@/assets/curso/tema1/3.svg", alt="alt")
         .col-lg-9
           .tarjeta.bgr.p-4
             SlyderA(tipo="b")
@@ -132,7 +132,7 @@
 
     
       .row.mb-5
-        .col-lg-3
+        .col-lg-3.mb-3.mb-lg-0
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema1/5.svg", alt="alt") 
         .col-lg-9
@@ -152,7 +152,7 @@
     
     .bg_grad-07
       .row
-        .col-lg-4
+        .col-lg-4.mb-3.mb-lg-0
           .tarjeta.bgr_1.p-4.h-100
             .tarjeta.bgr.p-3.h-100
               Audio.color-acento-botones.m-auto.mb-3(
@@ -162,7 +162,7 @@
                 .indicador--click(v-if="mostrarIndicadorAudio")
               p.text-bold.text-center <em>Transitive verbs</em>
               TraduccionT.color-acento-botones(:dialogo="dialogo4")(data-aos="flip-up")
-        .col-lg-4
+        .col-lg-4.mb-3.mb-lg-0
           .tarjeta.bgr_1.p-4.h-100
             .tarjeta.bgr.p-3.h-100
               Audio.color-acento-botones.m-auto.mb-3(
@@ -196,7 +196,7 @@
           img.w-auto(src="@/assets/curso/tema1/7.svg", alt="alt")
     
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         TraduccionT.color-acento-botones(:dialogo="dialogo8")(data-aos="flip-up")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema1/8.svg", alt="alt")
@@ -218,7 +218,7 @@
       p.text-center <em>Now it's your turn to see the thematic dialogue where we will find two characters talking about the things they did yesterday. Use the past tense.</em>
     
       .row.justify-content-center.mb-3
-        .col-lg-3.pe-0
+        .col-lg-3.pe-0.mb-3.mb-lg-0
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema1/10.svg", alt="alt")
         .col-lg-6.bgr
@@ -319,7 +319,7 @@
     p.text-bold.colr <em>Simple present perfect</em> / Presente perfecto simple
 
     .row.mb-5
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema1/17.svg", alt="alt")
       .col-lg-6
@@ -362,7 +362,7 @@
                     p.text-center <em>very hard.</em>
                     p.mb-0.text-center (muy duro.)
                   .col-lg-4
-                    Audio.color-acento-botones.mt-2(
+                    Audio.color-acento-botones.mt-2.m-auto(
                       :audio="require('@/assets/componentes/audios/tema1/28.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
@@ -383,7 +383,7 @@
                     p.text-center <em>to the radio.</em>
                     p.mb-0.text-center (la radio.)
                   .col-lg-4
-                    Audio.color-acento-botones.mt-2(
+                    Audio.color-acento-botones.mt-2.m-auto(
                       :audio="require('@/assets/componentes/audios/tema1/29.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
@@ -404,7 +404,7 @@
                     p.text-center <em>a new house.</em>
                     p.mb-0.text-center (una nueva casa.)
                   .col-lg-4
-                    Audio.color-acento-botones.mt-2(
+                    Audio.color-acento-botones.mt-2.m-auto(
                       :audio="require('@/assets/componentes/audios/tema1/30.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
@@ -425,7 +425,7 @@
                     p.text-center <em>abroad.</em>
                     p.mb-0.text-center (al extranjero.)
                   .col-lg-4
-                    Audio.color-acento-botones.mt-2(
+                    Audio.color-acento-botones.mt-2.m-auto(
                       :audio="require('@/assets/componentes/audios/tema1/31.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
@@ -507,7 +507,7 @@ export default {
     dialogo4: [
       {
         textoIng:
-          '<em>Verbs that use a direct object, but not an indirect object, are called <i>transitive.</i> They don’t always need a direct object. The examples are: <br><br><b>I clean that, we like it, I hate this, I learnt that, we did not say it.</b></em>',
+          '<em>Verbs that use a direct object, but not an indirect object, are called <i>transitive.</i> They don’t always need a direct object. The examples are: <br><br><b>I clean that, we liked it, I hate this, I learnt that, we did not say it.</b></em>',
         textoEsp:
           'Los verbos que usan un objeto directo, pero no un objeto indirecto, se llaman transitivos. No siempre necesitan un objeto directo. Los ejemplos son:<br><br>Yo  limpio eso, nos gusta, odio esto, aprendí eso, no lo dijimos.',
       },
@@ -547,9 +547,9 @@ export default {
     dialogo9: [
       {
         textoIng:
-          '<em>First, <i>present tense</i> tells you what a routine is, for example: <i>I go to work from Monday to Saturday.</i> That sentence means my routine is going to work, if there is an activity that I am doing today and it is not working, I must tell it in present continuous. Let’s guess whether the present should be simple or progressive.<br><br><b>He/go/bus/everyday</b></em>',
+          '<em>First, <i>present tense</i> tells you what a routine is, for example: <i>I go to work from Monday to Saturday.</i> That sentence means my routine is going to work, if there is an activity that I am doing today and it is not working, I must tell it in present continuous.</em>',
         textoEsp:
-          'Primero, el tiempo presente dice qué es una rutina, por ejemplo: Voy a trabajar de lunes a sábado. Esa oración significa que mi rutina es ir a trabajar, si hay una actividad que estoy haciendo hoy y no es trabajar, debo decirla en presente continuo. Adivina si el presente debe ser simple o progresivo (continuo).<br><br><em><b>He/go/bus/everyday</b></em>',
+          'Primero, el tiempo presente dice qué es una rutina, por ejemplo: Voy a trabajar de lunes a sábado. Esa oración significa que mi rutina es ir a trabajar, si hay una actividad que estoy haciendo hoy y no es trabajar, debo decirla en presente continuo.',
         audio: require('@/assets/componentes/audios/tema1/9.mp3'),
       },
     ],
@@ -641,7 +641,7 @@ export default {
           nombre: 'Cesar:',
         },
         {
-          nombre: 'Edith',
+          nombre: 'Lina',
         },
       ],
       dialogo: [
@@ -652,7 +652,7 @@ export default {
           audio: require('@/assets/componentes/audios/tema1/12.mp3'),
         },
         {
-          personaje: 'Edith',
+          personaje: 'Lina',
           textoIng: '<em>I stayed at home and cleaned the house.</em>',
           textoEsp: 'Yo me quedé en casa y limpié la casa.',
           audio: require('@/assets/componentes/audios/tema1/13.mp3'),
@@ -671,12 +671,12 @@ export default {
           nombre: 'Cesar:',
         },
         {
-          nombre: 'Edith',
+          nombre: 'Lina',
         },
       ],
       dialogo: [
         {
-          personaje: 'Edith',
+          personaje: 'Lina',
           textoIng:
             '<em>Not really, I love cleaning! And you? What did you do?</em>',
           textoEsp: 'No realmente, ¡me encanta limpiar! ¿Y tú? ¿Qué hiciste?',
@@ -689,7 +689,7 @@ export default {
           audio: require('@/assets/componentes/audios/tema1/16.mp3'),
         },
         {
-          personaje: 'Edith',
+          personaje: 'Lina',
           textoIng: '<em>That sounds fun!</em>',
           textoEsp: '¡Suena divertido!',
           audio: require('@/assets/componentes/audios/tema1/17.mp3'),
@@ -699,7 +699,7 @@ export default {
     dialogo: {
       personajes: [
         {
-          nombre: 'Pablo',
+          nombre: 'Susan',
           img: require('@/assets/curso/tema1/20.svg'),
         },
         {
@@ -709,8 +709,8 @@ export default {
       ],
       dialogo: [
         {
-          personaje: 'Pablo',
-          textoIng: '*** <em>you talk to Lina?</em>',
+          personaje: 'Susan',
+          textoIng: '*** <em>you talk to Carla?</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/tema1/22.mp3'),
           palabra: '<em>Did</em>',
@@ -723,9 +723,9 @@ export default {
           palabra: '<em>said</em>',
         },
         {
-          personaje: 'Pablo',
+          personaje: 'Susan',
           textoIng:
-            '<em>I saw how she</em> *** <em>our daughter in the match!</em>',
+            '<em>I saw how she</em> *** <em>our brother in the match!</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/tema1/24.mp3'),
           palabra: '<em>pushed</em>',
@@ -739,7 +739,7 @@ export default {
           palabra: '<em>was</em>',
         },
         {
-          personaje: 'Pablo',
+          personaje: 'Susan',
           textoIng: '<em>I hope It</em> *** <em>not happen again!</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/tema1/26.mp3'),

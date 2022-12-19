@@ -8,7 +8,7 @@
       h1 <em>Relative clauses</em> (Cláusulas relativas)
     
     .row
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema3/1.svg", alt="alt")
       .col-lg-8
@@ -21,7 +21,7 @@
       h2 3.1 <em>Defining and non-defining</em> (Definidas e indefinidas)
     
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema3/2.svg", alt="alt")
       .col-lg-8
@@ -29,7 +29,7 @@
 
     .bgr_11.p-5.mb-5
       .row
-        .col-lg-5.d-flex.align-items-end
+        .col-lg-5.d-flex.align-items-end.mb-3.mb-lg-0
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema3/3.svg", alt="alt")
         .col-lg-7
@@ -127,7 +127,7 @@
                   p <em>Bye.</em>
                   
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         TraduccionT.color-acento-botones.pst_8(:dialogo="dialogo3")(data-aos="flip-up")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema3/4.svg", alt="alt")
@@ -192,7 +192,7 @@
     TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo10")(data-aos="flip-up")
 
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         TraduccionAudio.color-acento-botones.pst_8(:dialogo="dialogo11")(data-aos="flip-up")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema3/15.png", alt="alt")
@@ -266,14 +266,14 @@
         TraduccionAudio.color-acento-botones(:dialogo="dialogo13")(data-aos="flip-up")
       .col-lg-4
         figure.d-flex.justify-content-center
-          img.w-auto(src="@/assets/curso/tema3/24.svg", alt="alt")
+          img.w-auto.d-none.d-lg-flex(src="@/assets/curso/tema3/24.svg", alt="alt")
     
     p.mb-5.text-center <em>Some examples of adverbial clauses:</em>
 
     .row
       .col-lg-4
         figure.d-flex.justify-content-center
-          img.w-auto(src="@/assets/curso/tema3/25.png", alt="alt")
+          img.w-auto.d-none.d-lg-flex(src="@/assets/curso/tema3/25.png", alt="alt")
       .col-lg-8
         LineaTiempoD.color-secundario
           div(numero="1" titulo="<em>Adverbial clause of manner</em>") 
@@ -299,7 +299,7 @@
               p.colr <em>It talks about the conditions related to the verb, adverb, or adjective in the sentence’s main clause. See the following example: </em>
               p.colr <em>We’ll be sitting in class <b>until the teacher tells us to leave.</b></em>
               TarjetaAudio.color-acento-contenido(
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/componentes/audios/tema3/33.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -308,7 +308,7 @@
               p.colr <em>It tells us the reason for the action in the sentence, there could be words such as because, since, etc.</em>
               p.colr <em>We adopted these two cats <b>because</b> they are brothers.</em>
               TarjetaAudio.color-acento-contenido(
-                :audio="require('@/assets/componentes/audios/tema3/33.mp3')"
+                :audio="require('@/assets/componentes/audios/tema3/34.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -317,7 +317,7 @@
               p.colr <em>It communicates when the action in a sentence takes place:</em>
               p.colr <em><b>Before</b> she got home, she ordered a pizza.</em>
               TarjetaAudio.color-acento-contenido(
-                :audio="require('@/assets/componentes/audios/tema3/34.mp3')"
+                :audio="require('@/assets/componentes/audios/tema3/35.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -326,7 +326,7 @@
               p.colr <em>They are clauses that communicate how the subject of the dependent clause compares to the subject in the main clause. Here is the example:</em>
               p.colr <em>My wedding vows <b>went as well as</b> I’d hoped.</em>
               TarjetaAudio.color-acento-contenido(
-                :audio="require('@/assets/componentes/audios/tema3/35.mp3')"
+                :audio="require('@/assets/componentes/audios/tema3/36.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -481,20 +481,20 @@ export default {
           img: require('@/assets/curso/tema3/13.svg'),
         },
         {
-          nombre: 'Jack',
+          nombre: 'Jane',
           img: require('@/assets/curso/tema3/14.svg'),
         },
       ],
       dialogo: [
         {
           personaje: 'Linn',
-          textoIng: '<em>Jack! Welcome back!</em> *** <em>was the trip?</em>',
-          textoEsp: '¡Jack! ¡Bienvenido! ¿Cómo estuvo el viaje?',
+          textoIng: '<em>Jane! Welcome back!</em> *** <em>was the trip?</em>',
+          textoEsp: '¡Jane! ¡Bienvenido! ¿Cómo estuvo el viaje?',
           audio: require('@/assets/componentes/audios/tema3/19.mp3'),
           palabra: '<em>How</em>',
         },
         {
-          personaje: 'Jack',
+          personaje: 'Jane',
           textoIng:
             ' <em>I am angry and tired. I was mad at the man</em> *** <em>sat next to me on the plane! He talked during the whole trip!</em>',
           textoEsp:
@@ -510,7 +510,7 @@ export default {
           palabra: '<em>What</em>',
         },
         {
-          personaje: 'Jack',
+          personaje: 'Jane',
           textoIng:
             '<em>It was unbelievable! He was talking about my friend Eliana the whole time. He was in love with my friend</em> *** <em>he met last year, but they broke up a few months ago.</em>',
           textoEsp:
@@ -538,7 +538,7 @@ export default {
     dialogo11: [
       {
         textoIng:
-          '<em><b>Nominal clauses:</b> a nominal clause names a person, place, thing, or idea.  A nominal clause may function in a sentence as any of the following : subject, preposition, subjective complement, direct object, appositive, indirect object, object of, retained object.<br><br>Some examples for nominal clauses:</em>',
+          '<em><b>Nominal clauses:</b> a nominal clause names a person, place, thing, or idea.  A nominal clause may function in a sentence as any of the following: subject, preposition, subjective complement, direct object, appositive, indirect object, object of, retained object.<br><br>Some examples for nominal clauses:</em>',
         textoEsp: '',
         audio: require('@/assets/componentes/audios/tema3/24.mp3'),
       },
@@ -546,9 +546,9 @@ export default {
     dialogo12: [
       {
         textoIng:
-          '<em><b>An adverbial clause:</b> it is a dependent clause that modifies a verb, adjective, or adverb in its sentence. In other words, an adverbial clause is a clause that does the same thing as an adverb. It is used to give more information and/or context to a sentence. <br><br>Examples:<br><br><i>●	She cleans the house weekly.<br>●	She cleans the house before she goes to work every Sunday.</i></em>',
+          '<em><b>An adverbial clause:</b> it is a dependent clause that modifies a verb, adjective, or adverb in its sentence. In other words, an adverbial clause is a clause that does the same thing as an adverb. It is used to give more information and/or context to a sentence. <br><br>Examples:<br><br><i>●	He cleans the house weekly.<br>●	She cleans the house before she goes to work every Sunday.</i></em>',
         textoEsp:
-          'Una cláusula adverbial: es una cláusula dependiente que modifica un verbo, adjetivo o adverbio en su oración. En otras palabras, una cláusula adverbial es una cláusula que hace lo mismo que un adverbio. Se utiliza para dar más información y/o contexto a una oración.<br><br>Ejemplos:<br><br>●	Ella limpia la casa semanalmente.<br>●	Ella limpia la casa antes de ir a trabajar todos los domingos.',
+          'Una cláusula adverbial: es una cláusula dependiente que modifica un verbo, adjetivo o adverbio en su oración. En otras palabras, una cláusula adverbial es una cláusula que hace lo mismo que un adverbio. Se utiliza para dar más información y/o contexto a una oración.<br><br>Ejemplos:<br><br>●	El limpia la casa semanalmente.<br>●	Ella limpia la casa antes de ir a trabajar todos los domingos.',
         audio: require('@/assets/componentes/audios/tema3/29.mp3'),
       },
     ],

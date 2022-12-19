@@ -12,7 +12,7 @@
     .bg_grad-02
       .bg_grad-03
         .row.mb-5.position-relative
-          .col-lg-4
+          .col-lg-4.mb-3.mb-lg-0
             figure.d-flex.justify-content-center
               img.w-auto(src="@/assets/curso/introduccion/1.svg", alt="alt")
           .col-lg-8

@@ -8,7 +8,7 @@
       h1 <em>Reading techniques: skimming and scanning</em> (Técnicas de lectura: “<em>skimming</em>” y “<em>scanning</em>”)
     
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema4/1.png", alt="alt")
       .col-lg-8

@@ -9,7 +9,7 @@
     
     .bg_grad-12
       .row.mb-5
-        .col-lg-5
+        .col-lg-5.mb-3.mb-lg-0
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema2/1.svg", alt="alt")
         .col-lg-7
@@ -35,7 +35,7 @@
       .row.mb-5
         .col-lg-4.d-flex.align-items-center
           figure.d-flex.justify-content-center
-            img.w-auto(src="@/assets/curso/tema2/3.png", alt="alt")
+            img.w-auto.d-none.d-lg-flex(src="@/assets/curso/tema2/3.png", alt="alt")
         .col-lg-8
           .tarjeta.bgr_2.p-4
             SlyderF.mb-5(columnas="col-lg-6 col-xl-6")

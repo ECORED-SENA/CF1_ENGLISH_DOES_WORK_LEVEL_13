@@ -17,7 +17,7 @@
     
     .bg_grad-16
       .row.mb-5.justify-content-center
-        .col-lg-4.pe-0
+        .col-lg-4.pe-0.mb-3.mb-lg-0
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema5/2.svg", alt="alt")
         .col-lg-6.bgr.p-4
@@ -83,17 +83,17 @@
               p.mb-0.colr <em>The unstressed vowel is one of the easiest sounds, it can be articulated moving the vocal cords. As it is easy to do that sound, babies do the ‘uh’ sound  easily</em>
       .col-lg-5
         figure.d-flex.justify-content-center
-          img.w-auto(src="@/assets/curso/tema5/8.svg", alt="alt")
+          img.w-auto.d-none.d-lg-flex(src="@/assets/curso/tema5/8.svg", alt="alt")
     
     .row
-      .col-lg-5
+      .col-lg-5.mb-3.mb-lg-0
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema5/9.png", alt="alt")
       .col-lg-7
         TraduccionAudio.color-acento-botones(:dialogo="dialogo2")(data-aos="flip-up")
         .tarjeta.bgr_2.p-4
           .row
-            .col-lg-6
+            .col-lg-6.mb-3.mb-lg-0
               p.mb-0 Si es de su interés ampliar la información sobre reducción de vocales, puede descargar el documento PDF y realizar dos ejercicios propuestos para llevar a la práctica.
             .col-lg-6
               a.anexo.mb-4(:href="obtenerLink('downloads/anexo4.pdf')" target="_blank")
@@ -121,9 +121,9 @@ export default {
     dialogo: [
       {
         textoIng:
-          '<em>Unstressed vowels are vowel sounds that are hard to hear when a word is said and the reason is because they are not stressed. For instance, when the word “dictionary” is said, the pronunciation is ‘dictionree’. The ’a’ is an unstressed vowel.<br><br>Here is an exercise to gather the idea: copy out the word list below in a piece of paper and underline the unstressed vowel in each word</em>',
+          '<em>Unstressed vowels are vowel sounds that are hard to hear when a word is said and the reason is because they are not stressed. For instance, when the word “dictionary” is said, the pronunciation is ‘dictionree’. The ’a’ is an unstressed vowel.<br><br>There is an exercise to gather the idea: copy out the word list below in a piece of paper and underline the unstressed vowel in each word</em>',
         textoEsp:
-          'Las vocales átonas son sonidos de vocales que son difíciles de escuchar cuando se dice una palabra y la razón es que no están acentuadas. Por ejemplo, cuando se dice la palabra dictionary, la pronunciación es "<em>dictionree</em>". La "a" es una vocal átona.<br><br>Aquí hay un ejercicio para recoger la idea: copie la lista de palabras a continuación en una hoja de papel y subraye la vocal átona en cada palabra.',
+          'Las vocales átonas son sonidos de vocales que son difíciles de escuchar cuando se dice una palabra y la razón es que no están acentuadas. Por ejemplo, cuando se dice la palabra dictionary, la pronunciación es "<em>dictionree</em>". La "a" es una vocal átona.<br><br>Hay un ejercicio para recoger la idea: copie la lista de palabras a continuación en una hoja de papel y subraye la vocal átona en cada palabra.',
         audio: require('@/assets/componentes/audios/tema5/1.mp3'),
       },
     ],
