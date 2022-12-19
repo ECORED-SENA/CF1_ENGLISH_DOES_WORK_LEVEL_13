@@ -489,7 +489,7 @@ export default {
         {
           personaje: 'Linn',
           textoIng: '<em>Welcome back!</em> *** <em>was the trip?</em>',
-          textoEsp: '¡Bienvenido! ¿Cómo estuvo el viaje?',
+          textoEsp: '¡Bienvenida! ¿Cómo estuvo el viaje?',
           audio: require('@/assets/componentes/audios/tema3/19.mp3'),
           palabra: '<em>How</em>',
         },

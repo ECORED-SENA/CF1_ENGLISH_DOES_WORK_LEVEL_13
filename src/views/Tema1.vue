@@ -210,8 +210,13 @@
               TraduccionAudio.color-acento-botones(:dialogo="dialogo9")(data-aos="flip-up")
           div(titulo="<em>Past tense</em>").bgr.tarjeta.p-4
             TraduccionAudio.color-acento-botones(:dialogo="dialogo10")(data-aos="flip-up")
-          div(titulo="<em>Future tense</em>").bgr.tarjeta.p-4
-            TraduccionAudio.color-acento-botones(:dialogo="dialogo11")(data-aos="flip-up")
+          .row(titulo="<em>Future tense</em>").bgr.tarjeta.p-4
+            .col-md-4.mb-3.mb-md-0
+              figure.d-flex.justify-content-center
+                img.w-auto(src="@/assets/curso/tema1/22.svg", alt="alt")
+            .col-md-8
+              TraduccionAudio.color-acento-botones(:dialogo="dialogo11")(data-aos="flip-up")
+          
 
     
     .bg_grad-08
