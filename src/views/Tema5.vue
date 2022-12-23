@@ -249,7 +249,6 @@ export default {
           textoIng: '<em>Yes</em>.',
           textoEsp: 'Si.',
           audio: require('@/assets/componentes/audios/tema5/13.mp3'),
-          palabra: '<em>rapidly</em>',
         },
       ],
     },

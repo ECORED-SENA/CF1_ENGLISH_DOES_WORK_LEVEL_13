@@ -425,7 +425,7 @@ export default {
         textoIng:
           '<em>The pronoun whom replaces people when they are not the subject of the sentence but are the ones who receive it.<br><br>Example:<br><br><i>To whom it may concern.</i></em>',
         textoEsp:
-          'El pronombre <em>whom</em> sustituye a personas cuando no son sujeto de la oración sino que son las que la reciben. Es decir:<br><br>Ejemplo:<br><br>A quién corresponda.',
+          'El pronombre <em>whom</em> sustituye a personas cuando no son sujeto de la oración sino que son las que la reciben. Es decir:<br><br>Ejemplo:<br><br>A quien corresponda.',
         audio: require('@/assets/componentes/audios/tema3/13.mp3'),
       },
     ],
@@ -520,10 +520,9 @@ export default {
         },
         {
           personaje: 'Linn',
-          textoIng: '<em>Oh!</em> *** <em>a small world.</em>',
+          textoIng: '<em>Oh! What a small world.</em>',
           textoEsp: '¡Qué pequeño es el mundo!',
           audio: require('@/assets/componentes/audios/tema3/23.mp3'),
-          palabra: '<em>What</em>',
         },
       ],
     },
@@ -548,7 +547,7 @@ export default {
         textoIng:
           '<em><b>An adverbial clause:</b> it is a dependent clause that modifies a verb, adjective, or adverb in its sentence. In other words, an adverbial clause is a clause that does the same thing as an adverb. It is used to give more information and/or context to a sentence. <br><br>Examples:<br><br><i>●	He cleans the house weekly.<br>●	She cleans the house before she goes to work every Sunday.</i></em>',
         textoEsp:
-          'Una cláusula adverbial: es una cláusula dependiente que modifica un verbo, adjetivo o adverbio en su oración. En otras palabras, una cláusula adverbial es una cláusula que hace lo mismo que un adverbio. Se utiliza para dar más información y/o contexto a una oración.<br><br>Ejemplos:<br><br>●	El limpia la casa semanalmente.<br>●	Ella limpia la casa antes de ir a trabajar todos los domingos.',
+          'Una cláusula adverbial: es una cláusula dependiente que modifica un verbo, adjetivo o adverbio en su oración. En otras palabras, una cláusula adverbial es una cláusula que hace lo mismo que un adverbio. Se utiliza para dar más información y/o contexto a una oración.<br><br>Ejemplos:<br><br>●	Él limpia la casa semanalmente.<br>●	Ella limpia la casa antes de ir a trabajar todos los domingos.',
         audio: require('@/assets/componentes/audios/tema3/29.mp3'),
       },
     ],

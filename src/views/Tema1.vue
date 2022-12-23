@@ -31,90 +31,19 @@
             SlyderA(tipo="b")
               div
                 p.text-center.text-bold <em>Dynamic (action) verbs</em> / Verbos dinámicos (de acción)
-                Audio.color-acento-botones.mx-3.mb-3(
-                    :audio="require('@/assets/componentes/audios/tema1/1.mp3')"
-                    @audio-hover="mostrarIndicadorAudio = false"
-                  )
-                    .indicador--click(v-if="mostrarIndicadorAudio")
-                .row
-                  .col-md-6.mb-4.mb-md-0
-                    p.colr <em>They are those actions that are seen, it means, they are external. For instance: swim, play, work, speak. They are not feelings because the way of feeling is not seen, it is shown through an action, that would be the dynamic verb.</em>
-                    p.colr.text-bold <em>For example:</em>
-                    p.colr.mb-0 <em><b>I feel angry</b> (that is not external)</em>
-                    p.colr.mb-0 <em><b>I start arguing</b> (that is external, “argue” is a dynamic verb)</em>
-                  .col-md-6
-                    p.colr_1 Son aquellas acciones que se ven, quiere decir que son externas, por ejemplo: nadar, jugar, trabajar, hablar. No son sentimientos porque no se ve la forma de sentir, se muestra a través de una acción, ese sería el verbo dinámico.
-                    p.colr_1.text-bold Ejemplo:
-                    p.colr_1.mb-0 Me siento enojado (eso no es externo)
-                    p.colr_1.mb-0 Empiezo a discutir (eso es externo, argumentar es un verbo dinámico
+                TraduccionAudio.color-acento-botones(:dialogo="dialogo20")(data-aos="flip-up")
               div
                 p.text-center.text-bold <em>Stative (state-of-being) verbs</em> / Verbos estativos (estado de ser)
-                Audio.color-acento-botones.mx-3.mb-3(
-                    :audio="require('@/assets/componentes/audios/tema1/2.mp3')"
-                    @audio-hover="mostrarIndicadorAudio = false"
-                  )
-                    .indicador--click(v-if="mostrarIndicadorAudio")
-                .row
-                  .col-md-6.mb-4.mb-md-0
-                    p.colr <em>Stative verbs describe a subject’s state or feeling, including things they like and don’t like. Some verbs would be: want, need, prefer, love, hate, like, dislike, seem, understand, know, believe, involve, realize.</em>
-                    p.colr <em>Stative verbs cannot be used in continuous tenses because they imply a feeling, a perception, a matter of likes and/or dislikes.</em>
-                    p.colr.text-bold <em>For example:</em>
-                    p.colr <em>She wants to study more.</em>
-                    p.colr.mb-0 <em><b>Note:</b> I can't say: She is wanting to study more, even if she has that feeling now.</em>
-                  .col-md-6
-                    p.colr_1 Los verbos estativos describen el estado o sentimiento de un sujeto, incluidas las cosas que les gustan y las que no. Algunos verbos serían: querer, necesitar, preferir, amar, odiar, gustar, disgustar, parecer, entender, saber, creer, involucrar, darse cuenta.
-                    p.colr_1 Los verbos estativos no se pueden usar en tiempos continuos porque implican un sentimiento, una percepción, una cuestión de gustos y/o disgustos.
-                    p.colr_1.text-bold Ejemplo:
-                    p.colr_1 Ella quiere estudiar más.
-                    p.colr_1.mb-0 <b>Nota:</b> No puedo decir: Ella esta queriendo estudiar más, incluso si ahora tiene ese sentimiento.
+                TraduccionAudio.color-acento-botones(:dialogo="dialogo21")
               div
                 p.text-center.text-bold <em>Auxiliary (helping) verbs</em> / Tipos de verbos - Verbos auxiliares (de ayuda)
-                Audio.color-acento-botones.mx-3.mb-3(
-                    :audio="require('@/assets/componentes/audios/tema1/3.mp3')"
-                    @audio-hover="mostrarIndicadorAudio = false"
-                  )
-                    .indicador--click(v-if="mostrarIndicadorAudio")
-                .row
-                  .col-md-6.mb-4.mb-md-0
-                    p.colr <em>Auxiliary verbs, or “helping verbs,” are used in English to change another verb’s tense, voice, or mood. For example, the verbs “have” and “do”. In the following sentences, they work as auxiliaries:</em>
-                    p.colr.text-bold <em>For example:</em>
-                    p.colr.mb-0 <em>I have eaten bread many times before. (tense)</em>
-                    p.colr.mb-0 <em>That piece of bread was eaten by me. (voice)</em>
-                    p.colr.mb-0 <em>Did you eat my bread? (mood)</em>
-                  .col-md-6
-                    p.colr_1 Los verbos auxiliares, o "verbos de ayuda", se usan en inglés para cambiar el tiempo, la voz o el modo de otro verbo. Por ejemplo, los verbos have y do. En las siguientes oraciones funcionan como auxiliares:
-                    p.colr_1.text-bold Ejemplo:
-                    p.colr_1.mb-0 He comido pan muchas veces antes. (tiempo)
-                    p.colr_1.mb-0 Ese trozo de pan me lo comí. (voz)
-                    p.colr_1.mb-0 ¿Te comiste mi pan? (estado anímico)
+                TraduccionAudio.color-acento-botones(:dialogo="dialogo22")
               div
                 p.text-center.text-bold <em>Modal auxiliary verbs</em> / Verbos auxiliares modales
-                Audio.color-acento-botones.mx-3.mb-3(
-                    :audio="require('@/assets/componentes/audios/tema1/4.mp3')"
-                    @audio-hover="mostrarIndicadorAudio = false"
-                  )
-                    .indicador--click(v-if="mostrarIndicadorAudio")
-                .row
-                  .col-md-6.mb-4.mb-md-0
-                    p.colr <em>Modal verbs usually behave differently to normal verbs; for example, they do not have the chance to participate in all tenses, they do not need conjugation and they do not require auxiliary either. Therefore, they are selected according to the purpose of the speaker who elaborates the sentence. Some of them are:  can, may, could, should, would, must, ought, and might.</em>
-                    p.colr <em>I could swim in the Olympics, but should I do it?</em>
-                  .col-md-6
-                    p.colr_1 Los verbos modales suelen comportarse de manera diferente a los verbos normales, por ejemplo, no tienen la oportunidad de participar en todos los tiempos, no necesitan conjugación y tampoco requieren auxiliares, por lo que se seleccionan de acuerdo con el propósito del hablante que elabora la frase. Algunos de ellos son: <em>can, may, could, should, would, must, ought y might.</em>
-                    p Podría nadar en los Juegos Olímpicos, pero ¿debería hacerlo?
+                TraduccionAudio.color-acento-botones(:dialogo="dialogo23")
               div
-                p.text-center.text-bold <em>Phrasal verbs</em> / Phrasal verbs
-                Audio.color-acento-botones.mx-3.mb-3(
-                    :audio="require('@/assets/componentes/audios/tema1/5.mp3')"
-                    @audio-hover="mostrarIndicadorAudio = false"
-                  )
-                    .indicador--click(v-if="mostrarIndicadorAudio")
-                .row
-                  .col-md-6.mb-4.mb-md-0
-                    p.colr <em>Phrasal verbs are verbs that can change meaning depending on the preposition or particle that is added. For example, the verb “get” means, in Spanish, “obtener”, but when the particle “by” is added, it means “vivir de”. Here we have the example:</em>
-                    p.colr <em>After losing his job, he’s getting by on savings.</em>
-                  .col-md-6
-                    p.colr_1 Los phrasal verbs son verbos que pueden cambiar de significado dependiendo de la preposición o partícula que se le agregue por ejemplo el verbo get significa en español obtener, pero cuando se le agrega la partícula by que significa vivir de o arreglárselas, aquí tenemos el ejemplo: 
-                    p Después de perder su trabajo, se las arregla con sus ahorros.
+                p.text-center.text-bold <em>Phrasal verbs</em> / Verbos frasales
+                TraduccionAudio.color-acento-botones(:dialogo="dialogo24")
     .bg_grad-06
       .bg_grad-05
         .row.mb-5.justify-content-center
@@ -570,7 +499,7 @@ export default {
     dialogo11: [
       {
         textoIng:
-          '<em><i>Future tense</i> talks about what has not happened yet. That can be a plan, something that can be done in the future, a desire, a prediction; for instance, talking about the weather: It <i>will rain, We will fly to Houston in November, I will go on foot today, I will help you.</i> Let’s see this image and describe the activities that people plan to do next week. Example: <i>She will walk the dog!</i></em>',
+          '<em><i>Future tense</i> talks about what has not happened yet. That can be a plan, something that can be done in the future, a desire, a prediction; for instance, talking about the weather: <i>It will rain, We will fly to Houston in November, I will go on foot today, I will help you.</i> Let’s see this image and describe the activities that people plan to do next week. Example: <i>She will walk the dog!</i></em>',
         textoEsp:
           'El tiempo futuro habla de lo que aún no ha sucedido. Puede ser un plan, algo que se puede hacer en el futuro, un deseo, una predicción; por ejemplo, hablar sobre el clima: Lloverá, Volaremos a Houston en noviembre, Iré a pie hoy, Yo te ayudaré. Veamos esta imagen y describamos las actividades que la gente planea hacer la próxima semana. Ejemplo: ¡Ella paseará al perro!</em>',
         audio: require('@/assets/componentes/audios/tema1/11.mp3'),
@@ -638,6 +567,51 @@ export default {
           '<em>As can be seen in the previous examples, the present perfect tense is formed using the auxiliary verb "to have" conjugated in the corresponding grammatical person in the present tense, plus the past participle of the main verb of the sentence, according to the following structure:</em>',
         textoEsp:
           'Como puede observarse en los ejemplos anteriores, el tiempo presente perfecto se forma utilizando el verbo auxiliar “<em>to have</em>” conjugado en la persona gramatical correspondiente en tiempo presente, más el participio pasado del verbo principal de la oración, de acuerdo con la siguiente estructura:',
+      },
+    ],
+    dialogo20: [
+      {
+        textoIng:
+          '<em>They are those actions that are seen, it means, they are external. For instance: swim, play, work, speak. They are not feelings because the way of feeling is not seen, it is shown through an action, that would be the dynamic verb.<br><br><b>For example:</b><br><br><b>I feel angry</b> (that is not external)<br><b>I start arguing</b> (that is external, “argue” is a dynamic verb)</em>',
+        textoEsp:
+          'Son aquellas acciones que se ven, quiere decir que son externas, por ejemplo: nadar, jugar, trabajar, hablar. No son sentimientos porque no se ve la forma de sentir, se muestra a través de una acción, ese sería el verbo dinámico. <br><br><b>Ejemplo:</b><br><br><b>Me siento enojado</b> (eso no es externo)<br><b>Empiezo a discutir</b> (eso es externo, argumentar es un verbo dinámico)',
+        audio: require('@/assets/componentes/audios/tema1/1.mp3'),
+      },
+    ],
+    dialogo21: [
+      {
+        textoIng:
+          '<em>Stative verbs describe a subject’s state or feeling, including things they like and don’t like. Some verbs would be: want, need, prefer, love, hate, like, dislike, seem, understand, know, believe, involve, realize.<br><br>Stative verbs cannot be used in continuous tenses because they imply a feeling, a perception, a matter of likes and/or dislikes.<br><br><b>For example:</b><br><br>She wants to study more.<br><br><b>Note:</b> I can’t say: She is wanting to study more, even if she has that feeling now.</em>',
+        textoEsp:
+          'Los verbos estativos describen el estado o sentimiento de un sujeto, incluidas las cosas que les gustan y las que no. Algunos verbos serían: querer, necesitar, preferir, amar, odiar, gustar, disgustar, parecer, entender, saber, creer, involucrar, darse cuenta.<br><br>Los verbos estativos no se pueden usar en tiempos continuos porque implican un sentimiento, una percepción, una cuestión de gustos y/o disgustos.<br><br><b>Ejemplo:</b><br><br>Ella quiere estudiar más.<br><br><b>Nota:</b> No puedo decir: Ella esta queriendo estudiar más, incluso si ahora tiene ese sentimiento.',
+        audio: require('@/assets/componentes/audios/tema1/2.mp3'),
+      },
+    ],
+    dialogo22: [
+      {
+        textoIng:
+          '<em>Auxiliary verbs, or “helping verbs,” are used in English to change another verb’s tense, voice, or mood. For example, the verbs “have” and “do”. In the following sentences, they work as auxiliaries:<br><br><b>For example:</b><br><br>I have eaten bread many times before. (tense)<br>That piece of bread was eaten by me. (voice)<br>Did you eat my bread? (mood)</em>',
+        textoEsp:
+          'Los verbos auxiliares, o "verbos de ayuda", se usan en inglés para cambiar el tiempo, la voz o el modo de otro verbo. Por ejemplo, los verbos have y do. En las siguientes oraciones funcionan como auxiliares: <br><br><b>Ejemplo:</b><br><br>He comido pan muchas veces antes. (tiempo)<br>Ese trozo de pan me lo comí. (voz)<br>¿Te comiste mi pan? (estado anímico)',
+        audio: require('@/assets/componentes/audios/tema1/3.mp3'),
+      },
+    ],
+    dialogo23: [
+      {
+        textoIng:
+          '<em>Modal verbs usually behave differently to normal verbs; for example, they do not have the chance to participate in all tenses, they do not need conjugation and they do not require auxiliary either. Therefore, they are selected according to the purpose of the speaker who elaborates the sentence. Some of them are:  can, may, could, should, would, must, ought, and might.<br><br>I could swim in the Olympics, but should I do it?</em>',
+        textoEsp:
+          'Los verbos modales suelen comportarse de manera diferente a los verbos normales, por ejemplo, no tienen la oportunidad de participar en todos los tiempos, no necesitan conjugación y tampoco requieren auxiliares, por lo que se seleccionan de acuerdo con el propósito del hablante que elabora la frase. Algunos de ellos son:  can, may, could, should, would, must, ought y might.<br><br>Podría nadar en los Juegos Olímpicos, pero ¿debería hacerlo?',
+        audio: require('@/assets/componentes/audios/tema1/4.mp3'),
+      },
+    ],
+    dialogo24: [
+      {
+        textoIng:
+          '<em>Phrasal verbs are verbs that can change meaning depending on the preposition or particle that is added. For example, the verb “get” means, in Spanish, “obtener”, but when the particle “by” is added, it means “vivir de”. Here we have the example: <br><br>After losing his job, he’s getting by on savings.</em>',
+        textoEsp:
+          'Los verbos frasales son verbos que pueden cambiar de significado dependiendo de la preposición o partícula que se le agregue por ejemplo el verbo get significa en español obtener, pero cuando se le agrega la partícula by que significa vivir de o arreglárselas, aquí tenemos el ejemplo:<br><br>Después de perder su trabajo, se las arregla con sus ahorros.',
+        audio: require('@/assets/componentes/audios/tema1/5.mp3'),
       },
     ],
     traduccionChat: {

@@ -122,7 +122,7 @@ export default {
         {
           personaje: 'James:',
           textoIng: '<em>Which ones are those?</em>',
-          textoEsp: 'No puedo imaginar lo difícil que fue.',
+          textoEsp: '¿Cuáles son esas?',
           audio: require('@/assets/componentes/audios/tema4/5.mp3'),
         },
         {
